@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<script src="~/js/login.js" asp-append-version="true" defer></script>
+<link rel="stylesheet" href="~/css/login1.css" asp-append-version="true" />
+
+<link rel="stylesheet" href="~/css/login1.css">
+<h1 id="h1p">Você é um:</h1>
+<div id="a1">
+    <a asp-area="" asp-controller="Login" asp-action="LoginColaborador">
+        <button id="btn1">
+            Colaborador
+        </button>
+    </a>
+    <a asp-area="" asp-controller="Login" asp-action="LoginRecebedor">
+        <button id="btn2">
+            Receptor
+        </button>
+    </a>
+    <a asp-area="" asp-controller="Login" asp-action="LoginAdministrador">
+        <button id="btn3">
+            Administrador
+        </button>
+    </a>
+</div>
+<br>
+<br>
